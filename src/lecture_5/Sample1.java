@@ -54,7 +54,7 @@ public class Sample1 {
 		b.value();
 		
 		boolean f = b instanceof RealBox; 
-		if (b  instanceof RealBox) {	
+		if (b instanceof RealBox) {	
 			RealBox rb = (RealBox)b;
 			
 		}

@@ -47,9 +47,9 @@ public class Sample1 {
 		b1.print();
 		
 		
-		RealBox b = new RealBox(1,2,3,4);
-		System.out.println(b.ro());
-		b.value();
+		//RealBox b = new RealBox(1,2,3,4);
+		//System.out.println(b.ro());
+		//b.value();
 	}
 
 }

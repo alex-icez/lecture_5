@@ -23,7 +23,7 @@ abstract class Box {
 	}
 }
 
-class RealBox extends Box {
+abstarct class RealBox extends Box {
 	double m;
 
 	public RealBox(int h, int w, int d, double m) {

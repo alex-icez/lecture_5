@@ -16,9 +16,7 @@ class Box {
 		return h * w * d;
 	}
 	
-	double area() {
-		return 0;
-	}
+	abstract double area();
 	
 	void print() {
 		System.out.println("Box : value = " + value());

@@ -5,6 +5,12 @@ class Box {
 	int w;
 	int d;
 	
+	public Box(int h, int w, int d) {
+		this.h = h;
+		this.w = w;
+		this.d = d;
+	}
+	
 	int value() {
 		return h * w * d;
 	}
@@ -13,6 +19,11 @@ class Box {
 class RealBox extends Box {
 	double m;
 
+	public RealBox(int h, int w, int d, double m) {
+		
+		
+	}
+	
 	double ro() {
 		return m / value();
 	}

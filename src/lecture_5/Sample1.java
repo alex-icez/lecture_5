@@ -1,5 +1,13 @@
 package lecture_5;
 
+interface Fun {
+	double area();
+}
+
+interface Output {
+	void print();
+}
+
 abstract class Box {
 	int h;
 	int w;
@@ -23,7 +31,7 @@ abstract class Box {
 	}
 }
 
-abstarct class RealBox extends Box {
+class RealBox extends Box {
 	double m;
 
 	public RealBox(int h, int w, int d, double m) {
@@ -35,7 +43,7 @@ abstarct class RealBox extends Box {
 		System.out.println("call value in RealBox");
 		return 0;
 	}
-	abstract double area();
+	
 	//double area() {
 	//	return 1;
 	//}

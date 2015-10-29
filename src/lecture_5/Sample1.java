@@ -11,8 +11,11 @@ class Box {
 }
 
 class RealBox extends Box {
-	
-	
+	double m;
+
+	double ro() {
+		return m / value();
+	}
 }
 
 

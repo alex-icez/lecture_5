@@ -45,7 +45,7 @@ public class Sample1 {
 	
 	static void fun(Box arr[]) {
 		for(int i = 0; i < arr.length; i++)
-			arr[i].area();
+			arr[i].value();
 	}
 	
 	public static void main(String[] args) {
@@ -58,6 +58,7 @@ public class Sample1 {
 			RealBox rb = (RealBox)b;
 			
 		}
+		
 		Object obj = new String();
 		//Box box = new Box(1,2,3);
 		//b1.print();

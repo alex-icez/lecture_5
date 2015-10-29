@@ -14,9 +14,7 @@ class Memory {
 			System.out.println("ERROR: Incorrect input");
 		else
 			this.bytes = bytes;
-		
 	}
-	
 	
 	public Memory(int bytes) {
 		this(bytes, 0, 0);
@@ -42,8 +40,8 @@ public class HomeWork {
 
 	public static void main(String[] args) {
 		Memory m = new Memory(542,442,0);
-		m.bytes = -12321;
-		m.kbytes = -64564;
+		m.setBytes(-12321);
+		//m.kbytes = -64564;
 		
 		
 		m.print();

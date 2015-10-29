@@ -42,9 +42,9 @@ class RealBox extends Box {
 		return 0;
 	}
 	
-	//double area() {
-	//	return 1;
-	//}
+	double area() {
+		return 1;
+	}
 	
 	double ro() {
 		return m / value();
@@ -63,7 +63,7 @@ public class Sample1 {
 	public static void main(String[] args) {
 		Box b1 = new Box();
 		Output o = new Box(1,2,3);
-		
+		o.print();
 		Box b = new RealBox(1,2,3,4);
 		b.print();
 		b.value();

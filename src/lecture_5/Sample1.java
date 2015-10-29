@@ -35,7 +35,6 @@ class RealBox extends Box {
 	
 	int value() {
 		System.out.println("call value in RealBox");
-	//	return super.value();
 		return 0;
 	}
 	
@@ -59,8 +58,8 @@ public class Sample1 {
 		b.value();
 		
 		Box arr[] = new Box[10];
-		arr[0] = Circle(1,2,3);
-		arr[1] = Rect(1,2,3,4);
+		arr[0] = new Circle(1,2,3);
+		arr[1] = new Rect(1,2,3,4);
 		for(int i = 0; i < 10; i++)
 			arr[i].area();
 		

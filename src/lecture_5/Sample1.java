@@ -16,12 +16,8 @@ class Box {
 		return h * w * d;
 	}
 	
-	double area() {
-		return 0;
-	}
-	
 	void print() {
-		System.out.println("Box : value = " + area());
+		System.out.println("Box : value = " + value());
 	}
 }
 
@@ -56,15 +52,6 @@ public class Sample1 {
 		Box b = new RealBox(1,2,3,4);
 		b.print();
 		b.value();
-		
-		Box arr[] = new Box[10];
-		arr[0] = new Circle(1,2,3);
-		arr[1] = new Rect(1,2,3,4);
-		for(int i = 0; i < 10; i++)
-			arr[i].area();
-		
-		RealBox rb = ((RealBox)b);
-		rb.ro();
 		
 		
 		

@@ -29,6 +29,10 @@ public class HomeWork {
 
 	public static void main(String[] args) {
 		Memory m = new Memory(542,442,0);
+		m.bytes = -12321;
+		m.kbytes = -64564;
+		
+		
 		m.print();
 	}
 }

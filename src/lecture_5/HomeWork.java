@@ -16,9 +16,11 @@ class Memory {
 	}
 	
 	public void print() {
-		
-		
-		
+		if (mbytes > 0)
+			System.out.print(mbytes + "Mb ");
+		if (kbytes > 0)
+			System.out.print(kbytes + "Kb ");
+		System.out.println(bytes + "b");
 	}
 }
 
@@ -26,6 +28,7 @@ class Memory {
 public class HomeWork {
 
 	public static void main(String[] args) {
-		Memory m;
+		Memory m = new Memory(123,4342,432);
+		m.print();
 	}
 }

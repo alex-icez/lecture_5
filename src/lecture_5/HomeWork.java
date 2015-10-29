@@ -34,7 +34,7 @@ class Memory {
 		this.mbytes = mbytes + (kbytes + (bytes / 1024)) / 1024;
 	}
 	
-	private void print(int a) {
+	protected void print(int a) {
 		if (mbytes > 0)
 			System.out.print(mbytes + "Mb ");
 		if (kbytes > 0)
@@ -54,7 +54,6 @@ public class HomeWork {
 		Memory m = new Memory(542,442,0);
 		m.setBytes(-12321);
 		//m.kbytes = -64564;
-		
 		
 		m.print();
 	}

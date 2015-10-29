@@ -5,6 +5,9 @@ class Box {
 	int w;
 	int d;
 	
+	int value() {
+		return h * w * d;
+	}
 }
 
 

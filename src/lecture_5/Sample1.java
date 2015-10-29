@@ -51,6 +51,9 @@ public class Sample1 {
 	}
 	
 	public static void main(String[] args) {
+		Box b1 = new Box();
+		
+		
 		Box b = new RealBox(1,2,3,4);
 		b.print();
 		b.value();

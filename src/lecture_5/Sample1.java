@@ -5,6 +5,7 @@ class Box {
 	int w;
 	int d;
 	double m;
+	
 	public Box(int h, int w, int d) {
 		this.h = h;
 		this.w = w;

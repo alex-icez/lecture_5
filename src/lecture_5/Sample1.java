@@ -14,6 +14,10 @@ class Box {
 	int value() {
 		return h * w * d;
 	}
+	
+	void print() {
+		System.out.println("Box : value = " + value());
+	}
 }
 
 class RealBox extends Box {

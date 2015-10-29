@@ -10,6 +10,11 @@ class Box {
 	}
 }
 
+class RealBox extends Box {
+	
+	
+}
+
 
 public class Sample1 {
 

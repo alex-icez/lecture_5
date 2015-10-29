@@ -15,8 +15,13 @@ class Box {
 		return h * w * d;
 	}
 	
+	double area() {
+		return 0;
+	}
+	
+
 	void print() {
-		System.out.println("Box : value = " + value());
+		System.out.println("Box : value = " + area());
 	}
 }
 

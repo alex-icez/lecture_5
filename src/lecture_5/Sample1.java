@@ -48,7 +48,7 @@ class RealBox extends Box {
 public class Sample1 {
 
 	public static void main(String[] args) {
-		Box b1 = new Box(1,2,3);
+		Box box = new Box(1,2,3);
 		b1.print();
 		RealBox rb = new RealBox(1,2,3,4);
 		rb.print();

@@ -52,6 +52,11 @@ public class Sample1 {
 		b.print();
 		b.value();
 		
+		Box arr[] = new Box[10];
+		arr[0] = Circle(1,2,3);
+		arr[1] = Rect(1,2,3,4);
+		
+		
 		RealBox rb = ((RealBox)b);
 		rb.ro();
 		

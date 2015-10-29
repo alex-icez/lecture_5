@@ -22,6 +22,7 @@ class RealBox extends Box {
 	public RealBox(int h, int w, int d, double m) {
 		super(h, w, d);
 		this.m = m;
+		super.m = m;
 	}
 	
 	double ro() {

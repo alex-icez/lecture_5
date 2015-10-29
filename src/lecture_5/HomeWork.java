@@ -1,10 +1,11 @@
 package lecture_5;
 
-
 class Memory {
 	int bytes;
 	int kbytes;
-	int mbytes;
+	int mbyte
+	
+	
 	
 }
 

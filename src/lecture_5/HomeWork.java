@@ -3,10 +3,12 @@ package lecture_5;
 class Memory {
 	int bytes;
 	int kbytes;
-	int mbyte
+	int mbytes;
 	
+	public Memory(int bytes, int kbytes, int mbytes) {
 	
-	
+		
+	}
 }
 
 

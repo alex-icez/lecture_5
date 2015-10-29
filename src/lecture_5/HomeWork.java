@@ -16,6 +16,14 @@ class Memory {
 			this.bytes = bytes;
 	}
 	
+	public int getKbytes() {
+		return kbytes;
+	}
+
+	public void setKbytes(int kbytes) {
+		this.kbytes = kbytes;
+	}
+
 	public Memory(int bytes) {
 		this(bytes, 0, 0);
 	}
@@ -26,12 +34,16 @@ class Memory {
 		this.mbytes = mbytes + (kbytes + (bytes / 1024)) / 1024;
 	}
 	
-	public void print() {
+	private void print(int a) {
 		if (mbytes > 0)
 			System.out.print(mbytes + "Mb ");
 		if (kbytes > 0)
 			System.out.print(kbytes + "Kb ");
 		System.out.println(bytes + "b");
+	}
+	
+	public void print() {
+		print(123);
 	}
 }
 

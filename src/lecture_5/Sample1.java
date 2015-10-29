@@ -58,7 +58,7 @@ public class Sample1 {
 			RealBox rb = (RealBox)b;
 			
 		}
-		
+		Object obj = new String();
 		//Box box = new Box(1,2,3);
 		//b1.print();
 		//RealBox rb = new RealBox(1,2,3,4);

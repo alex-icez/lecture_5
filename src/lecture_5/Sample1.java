@@ -8,7 +8,7 @@ interface Output {
 	void print();
 }
 
-abstract class Box implements Output {
+abstract class Box implements Output, Fun {
 	int h;
 	int w;
 	int d;
@@ -24,7 +24,7 @@ abstract class Box implements Output {
 		return h * w * d;
 	}
 
-	void print() {
+	public void print() {
 		System.out.println("Box : value = " + area());
 	}
 }

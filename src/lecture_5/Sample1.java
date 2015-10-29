@@ -47,6 +47,12 @@ class RealBox extends Box {
 
 public class Sample1 {
 
+	
+	static void fun(Box arr[]) {
+		for(int i = 0; i < arr.length; i++)
+			arr[i].area();
+	}
+	
 	public static void main(String[] args) {
 		Box b = new RealBox(1,2,3,4);
 		b.print();
@@ -55,7 +61,8 @@ public class Sample1 {
 		Box arr[] = new Box[10];
 		arr[0] = Circle(1,2,3);
 		arr[1] = Rect(1,2,3,4);
-		
+		for(int i = 0; i < 10; i++)
+			arr[i].area();
 		
 		RealBox rb = ((RealBox)b);
 		rb.ro();

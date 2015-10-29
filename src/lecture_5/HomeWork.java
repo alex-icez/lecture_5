@@ -1,9 +1,22 @@
 package lecture_5;
 
 class Memory {
-	int bytes;
-	int kbytes;
-	int mbytes;
+	private int bytes;
+	private int kbytes;
+	private int mbytes;
+	
+	public int getBytes() {
+		return bytes;
+	}
+	
+	public void setBytes(int bytes) {
+		if (bytes > 1023 || bytes < 0)
+			System.out.println("ERROR: Incorrect input");
+		else
+			this.bytes = bytes;
+		
+	}
+	
 	
 	public Memory(int bytes) {
 		this(bytes, 0, 0);

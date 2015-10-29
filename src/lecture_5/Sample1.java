@@ -19,7 +19,6 @@ class Box {
 		return 0;
 	}
 	
-
 	void print() {
 		System.out.println("Box : value = " + area());
 	}

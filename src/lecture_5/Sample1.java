@@ -1,6 +1,6 @@
 package lecture_5;
 
-class Box {
+abstract class Box {
 	int h;
 	int w;
 	int d;

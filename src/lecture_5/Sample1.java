@@ -33,7 +33,8 @@ class RealBox extends Box {
 public class Sample1 {
 
 	public static void main(String[] args) {
-		Box b = new Box(1,2,3,4);
+		Box b = new Box();
+	
 		System.out.println(b.ro());
 
 	}

@@ -22,11 +22,11 @@ class RealBox extends Box {
 	public RealBox(int h, int w, int d, double m) {
 		super(h, w, d);
 		this.m = m;
-		
 	}
 	
 	int value() {
-		return 0;
+		System.out.println("call value in RealBox");
+		return super.value();
 	}
 	
 	double ro() {
@@ -40,7 +40,7 @@ public class Sample1 {
 	public static void main(String[] args) {
 		RealBox b = new RealBox(1,2,3,4);
 		System.out.println(b.ro());
-
+		b.value();
 	}
 
 }

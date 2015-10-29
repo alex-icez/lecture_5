@@ -22,7 +22,8 @@ class RealBox extends Box {
 public class Sample1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		RealBox b = new RealBox();
+		System.out.println(b.ro());
 
 	}
 

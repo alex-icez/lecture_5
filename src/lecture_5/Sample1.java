@@ -23,11 +23,12 @@ class RealBox extends Box {
 		super(h, w, d);
 		this.m = m;
 	}
-	/*
+	
 	int value() {
 		System.out.println("call value in RealBox");
-		return super.value();
-	}*/
+	//	return super.value();
+		return 0;
+	}
 	
 	double ro() {
 		return m / value();

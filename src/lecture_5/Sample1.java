@@ -5,11 +5,11 @@ class Box {
 	int w;
 	int d;
 	
-	public Box(int h, int w, int d) {
+/*	public Box(int h, int w, int d) {
 		this.h = h;
 		this.w = w;
 		this.d = d;
-	}
+	}*/
 	
 	int value() {
 		return h * w * d;
@@ -33,7 +33,7 @@ class RealBox extends Box {
 public class Sample1 {
 
 	public static void main(String[] args) {
-		RealBox b = new RealBox();
+		Box b = new Box(1,2,3,4);
 		System.out.println(b.ro());
 
 	}

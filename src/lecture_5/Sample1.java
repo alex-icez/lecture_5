@@ -53,7 +53,8 @@ public class Sample1 {
 		b.print();
 		b.value();
 		
-		
+		boolean f = b instanceof RealBox; 
+			
 		
 		
 		//Box box = new Box(1,2,3);

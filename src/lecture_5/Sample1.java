@@ -23,7 +23,7 @@ abstract class Box {
 	}
 }
 
-class RealBox extends Box {
+abstarct class RealBox extends Box {
 	double m;
 
 	public RealBox(int h, int w, int d, double m) {
@@ -36,9 +36,9 @@ class RealBox extends Box {
 		return 0;
 	}
 	
-	doble area() {
-	
-	}
+	//double area() {
+	//	return 1;
+	//}
 	
 	double ro() {
 		return m / value();

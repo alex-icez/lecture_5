@@ -36,6 +36,10 @@ class RealBox extends Box {
 		return 0;
 	}
 	
+	doble area() {
+	
+	}
+	
 	double ro() {
 		return m / value();
 	}

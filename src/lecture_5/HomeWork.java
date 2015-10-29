@@ -28,7 +28,7 @@ class Memory {
 public class HomeWork {
 
 	public static void main(String[] args) {
-		Memory m = new Memory(123,4342,432);
+		Memory m = new Memory(542,4423,0);
 		m.print();
 	}
 }
